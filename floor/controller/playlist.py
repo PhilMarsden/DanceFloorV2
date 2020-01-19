@@ -20,7 +20,7 @@ class Playlist(object):
         if processor:
             self.append(name=processor)
         else:
-            filename = config_dir + "/playlist-party.json"
+            filename = config_dir + "/playlist-default.json"
             with open(filename) as json_data:
                 items = json.load(json_data).get('queue', [])
                 for item in items:
