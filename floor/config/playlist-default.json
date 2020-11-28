@@ -1,8 +1,57 @@
 {
-  "queue": [
-    {
-      "name": "ticker",
-      "duration": "0"
-    }
-  ]
-}
+    "queue": [
+      {
+        "name": "pmrotatingsquare",
+        "duration": "60"
+      },
+      {
+        "name": "chachacha",
+        "duration": "60"
+      },
+      {
+        "name": "flashbang",
+        "duration": "60"
+      },
+      {
+        "name": "landmines",
+        "duration": "60"
+      },
+      {
+        "name": "raverplaid",
+        "duration": "60"
+      },
+      {
+        "name": "randomdecay",
+        "duration": "60"
+      },
+      {
+        "name": "stripes",
+        "duration": "60",
+        "args": {
+          "length": 18,
+          "max_speed": 1.0,
+          "min_speed": 0.5
+        }
+      },
+      {
+        "name": "hyperspace",
+        "duration": "60"
+      },
+      {
+        "name": "fishies",
+        "duration": "60"
+      },
+      {
+        "name": "twitter",
+        "duration": "60"
+      },
+      {
+        "name": "pmimage",
+        "duration": "10",
+        "args": {
+          "directory" : "floor/processor/images/pmimages"
+        }
+      }
+    ]
+  }
+  
